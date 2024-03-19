@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #BC8F8F; /* Background color applied to the entire page */
+            font-family: 'Times New Roman', serif; /* Default font family */
+        }
+        h1, h2, h3, .section-title {
+            color: #48494B; /* Changing color of all headings */
+            font-family: Verdana, sans-serif; /* Font family for all headings */
+        }
+        h1 {
+            text-align: center;
+            background-color: #BC8F8F; /* Background color applied to the title */
+            padding: 10px; /* Adding padding for better readability */
+            font-family: 'Verdana', sans-serif; /* Font family for the title */
+            color: black; /* Change title color to black */
+            font-family: 'Times New Roman', serif; /* Change title font to Times New Roman */
+        }
+        .section {
+            padding: 20px;
+            background-color: #BC8F8F; /* Background color applied to the sections */
+        }
+        .section-title {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            color: white;
+            margin-left: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        p, span {
+            font-family: 'Times New Roman', serif; /* Font family for the content */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Services</h1>
+
+<div class="section">
+    <h2 class="section-title bold">Cooking Classes Include</h2>
+    <ul>
+        <li>A guided lesson on how to professionally and quickly prepare your meal</li>
+        <li>Access to our state of the art kitchen and all its appliances</li>
+        <li>Ingredients (Including our signature products)</li>
+        <li>Document with the dish's recipe and instructions on how to prepare it</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2 class="section-title">American Cuisine</h2>
+    <font color="white" size="3">
+        <p>America has a rich culinary tradition with dishes like burgers, fries, BBQ, and more. Our American cuisine cooking classes will teach you how to master these classics and put your own twist on them.</p>
+    </font>
+    <h3 class="section-title">Available Dishes</h3>
+    <div class="dish">
+        <img src="images/american_burger.jpg" alt="American Burger" height="200" width="200" />
+        <span>Burger</span>
+    </div>
+    <div class="dish">
+        <img src="images/american_fries.jpg" alt="American Fries" height="200" width="200" />
+        <span>Fries</span>
+    </div>
+    <div class="dish">
+        <img src="images/american_bbq.jpg" alt="American BBQ" height="200" width="200" />
+        <span>BBQ</span>
+    </div>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Asian Cuisine</h2>
+    <font color="white" size="3">
+        <p>Asian cuisine encompasses a wide range of flavors and techniques. From sushi to stir-fries, our Asian cuisine cooking classes will introduce you to the diverse and delicious world of Asian cooking.</p>
+    </font>
+    <h3 class="section-title">Available Dishes</h3>
+    <div class="dish">
+        <img src="images/asian_sushi.jpg" alt="Asian Sushi" height="200" width="200" />
+        <span>Sushi</span>
+    </div>
+    <div class="dish">
+        <img src="images/asian_stirfry.jpg" alt="Asian Stir-fry" height="200" width="200" />
+        <span>Stir-fry</span>
+    </div>
+    <div class="dish">
+        <img src="images/asian_curry.jpg" alt="Asian Curry" height="200" width="200" />
+        <span>Curry</span>
+    </div>
+</div>
+
+<div class="section">
+    <h2 class="section-title">Hispanic Cuisine</h2>
+    <font color="white" size="3">
+        <p>Hispanic cuisine is known for its bold flavors and colorful ingredients. Join our Hispanic cuisine cooking classes to learn how to make mouthwatering dishes like tacos, paella, and empanadas.</p>
+    </font>
+    <h3 class="section-title">Available Dishes</h3>
+    <div class="dish">
+        <img src="images/hispanic_tacos.jpg" alt="Hispanic Tacos" height="200" width="200" />
+        <span>Tacos</span>
+    </div>
+    <div class="dish">
+        <img src="images/hispanic_paella.jpg" alt="Hispanic Paella" height="200" width="200" />
+        <span>Paella</span>
+    </div>
+    <div class="dish">
+        <img src="images/hispanic_empanadas.jpg" alt="Hispanic Empanadas" height="200" width="200" />
+        <span>Empanadas</span>
+    </div>
+</div>
+
+<div class="section" style="background-color: #BC8F8F;">
+    <h2 class="section-title bold" style="font-family: Times New Roman, sans-serif; color: black; text-decoration: underline;">Customer Resources</h2>
+    <p style="font-style: italic; color: white; font-family: 'Times New Roman', serif;">If you are interested in booking a class, please take a look at our pricing as well as our selection of chefs that will be instructing the classes.</p>
+    <h3 class="section-title bold" style="font-family: Times New ROman, sans-serif; color: black; text-decoration: underline;">Steps to Take</h3>
+    <ol style="color: white; font-family: 'Times New Roman', serif; font-style: italic;">
+        <li>Reflect on your lifestyle and decide how many courses you would like to learn how to prepare</li>
+        <li>Take a look at our pricing page</li>
+        <li>Choose a chef and type of cuisine</li>
+        <li>Contact us to reserve a booking!</li>
+    </ol>
+</div>
+<!-- Links -->
+    <div style="clear:both;">
+        <br><br>
+     
+    <p><a href="mailto:pearsoni@purdue.edu" style="color: white; text-decoration: none; padding: 10px 20px; background-color: #BC8F8F; border: 1px solid white; border-radius: 5px;">Contact Us!</a></p>
+
+    <!-- Last Modified Date -->
+This document was last modified:</p>
+<p id="time" style="font-size:vw;">
+    <script>
+    let text = document.lastModified; document.getElementById("time").innerHTML = text;
+    </script>
+</body>
+</html>
