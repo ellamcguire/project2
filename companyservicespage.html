@@ -8,27 +8,28 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #BC8F8F; /* Background color applied to the entire page */
-            font-family: 'Times New Roman', serif; /* Default font family */
+            background-color: #BC8F8F;
+            font-family: 'Times New Roman', serif;
+            color: #48494B;
         }
-        h1, h2, h3, .section-title {
-            color: #48494B; /* Changing color of all headings */
-            font-family: Verdana, sans-serif; /* Font family for all headings */
+        h1, h2, h3 {
+            text-align: center;
+            font-family: Verdana, sans-serif;
         }
         h1 {
-            text-align: center;
-            background-color: #BC8F8F; /* Background color applied to the title */
-            padding: 10px; /* Adding padding for better readability */
-            font-family: 'Verdana', sans-serif; /* Font family for the title */
-            color: black; /* Change title color to black */
-            font-family: 'Times New Roman', serif; /* Change title font to Times New Roman */
+            background-color: #BC8F8F;
+            padding: 10px;
+            color: black;
         }
         .section {
             padding: 20px;
-            background-color: #BC8F8F; /* Background color applied to the sections */
+            background-color: #BC8F8F;
+            margin-bottom: 40px;
         }
         .section-title {
             text-decoration: underline;
+            font-size: 24px;
+            margin-bottom: 20px;
         }
         ul {
             list-style-type: disc;
@@ -39,11 +40,18 @@
             font-weight: bold;
         }
         p, span {
-            font-family: 'Times New Roman', serif; /* Font family for the content */
+            font-family: 'Times New Roman', serif;
         }
         .dish {
             display: inline-block;
             margin-right: 20px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -60,11 +68,10 @@
         <li>Document with the dish's recipe and instructions on how to prepare it</li>
     </ul>
 </div>
+
 <div class="section">
     <h2 class="section-title">American Cuisine</h2>
-    <font color="white" size="3">
-        <p>America has a rich culinary tradition with dishes like burgers, fries, BBQ, and more. Our American cuisine cooking classes will teach you how to master these classics and put your own twist on them.</p>
-    </font>
+    <p>America has a rich culinary tradition with dishes like burgers, fries, BBQ, and more. Our American cuisine cooking classes will teach you how to master these classics and put your own twist on them.</p>
     <h3 class="section-title">Available Dishes</h3>
     <div>
         <div class="dish">
@@ -84,9 +91,7 @@
 
 <div class="section">
     <h2 class="section-title">Asian Cuisine</h2>
-    <font color="white" size="3">
-        <p>Asian cuisine encompasses a wide range of flavors and techniques. From sushi to stir-fries, our Asian cuisine cooking classes will introduce you to the diverse and delicious world of Asian cooking.</p>
-    </font>
+    <p>Asian cuisine encompasses a wide range of flavors and techniques. From sushi to stir-fries, our Asian cuisine cooking classes will introduce you to the diverse and delicious world of Asian cooking.</p>
     <h3 class="section-title">Available Dishes</h3>
     <div>
         <div class="dish">
@@ -106,9 +111,7 @@
 
 <div class="section">
     <h2 class="section-title">Hispanic Cuisine</h2>
-    <font color="white" size="3">
-        <p>Hispanic cuisine is known for its bold flavors and colorful ingredients. Join our Hispanic cuisine cooking classes to learn how to make mouthwatering dishes like tacos, paella, and empanadas.</p>
-    </font>
+    <p>Hispanic cuisine is known for its bold flavors and colorful ingredients. Join our Hispanic cuisine cooking classes to learn how to make mouthwatering dishes like tacos, paella, and empanadas.</p>
     <h3 class="section-title">Available Dishes</h3>
     <div>
         <div class="dish">
@@ -126,33 +129,21 @@
     </div>
 </div>
 
-<div class="section" style="background-color: #BC8F8F;">
-    <h2 class="section-title bold" style="font-family: Times New Roman, sans-serif; color: black; text-decoration: underline;">Customer Resources</h2>
-    <p style="font-style: italic; color: white; font-family: 'Times New Roman', serif;">If you are interested in booking a class, please take a look at our pricing as well as our selection of chefs that will be instructing the classes.</p>
-    <h3 class="section-title bold" style="font-family: Times New Roman, sans-serif; color: black; text-decoration: underline;">Steps to Take</h3>
-    <ol style="color: white; font-family: 'Times New Roman', serif; font-style: italic;">
-        <li>Reflect on your lifestyle and decide how many courses you would
-        <li>Take a look at our pricing page</li>
-        <li>Choose a chef and type of cuisine</li>
+<div class="section">
+    <h2 class="section-title bold">Customer Resources</h2>
+    <p>If you are interested in booking a class, please take a look at our <a href="https://docs.google.com/document/d/1TwQsSTvWRB6r8cQCkNjBxGLZXKldST9zT2xEOXs97ZI/edit?usp=sharing" target="_blank">pricing</a> as well as our selection of chefs that will be instructing the classes.</p>
+    <h3 class="section-title bold">Steps to Take</h3>
+    <ol>
+        <li>Reflect on your lifestyle and decide how many courses you would like to take.</li>
+        <li>Take a look at our pricing page.</li>
+        <li>Choose a chef and type of cuisine.</li>
         <li>Contact us to reserve a booking!</li>
     </ol>
 </div>
+
 <!-- Links -->
-    <div style="clear:both;">
-        <p style="color: white; font-family: modern; font-size: 16px;"><u><b>Pricing of Cooking Classes:</b></u> <a href="https://docs.google.com/document/d/1TwQsSTvWRB6r8cQCkNjBxGLZXKldST9zT2xEOXs97ZI/edit?usp=sharing" target="_blank">Cooking Class Information</a></p>
-        <br>
+<div style="text-align: center;">
+    <p><u><b>Pricing of Cooking Classes:</b></u> <a href="https://docs.google.com/document/d/1TwQsSTvWRB6r8cQCkNjBxGLZXKldST9zT2xEOXs97ZI/edit?usp=sharing" target="_blank">Cooking Class Information</a></p>
+    <p><u><b>Download the List of our Chefs!</b></u> <a href="Chefs.pdf" target="_blank">Chef List(PDF)</a></p>
+    <p><a href="mailto:pearsoni@purdue.edu" style="color: white; text-decoration: none; padding
 
-    <h2 style = "color: #48494B; font-family: helvetica; font-size: 28px"><u><b>Download the List of our Chefs!</b></u></h2>
-    <a href="Chefs.pdf" target="_blank">Chef List(PDF)</a>
-
-     
-    <p><a href="mailto:pearsoni@purdue.edu" style="color: white; text-decoration: none; padding: 10px 20px; background-color: #BC8F8F; border: 1px solid white; border-radius: 5px;">Contact Us!</a></p>
-
-    <!-- Last Modified Date -->
-This document was last modified:</p>
-<p id="time" style="font-size:vw;">
-    <script>
-    let text = document.lastModified; document.getElementById("time").innerHTML = text;
-    </script>
-     
-    <p><a href
